@@ -61,8 +61,8 @@ These indexes significantly improve the performance of queries, especially for f
 
 ## ⚠️ Note
 We can **automate the partition creation** process.\
-To automatically create partitions for upcoming years, we can:\
-- Schedule a job using PostgreSQL's pg_cron extension or an external cron job.\
+To automatically create partitions for upcoming years, we can:
+- Schedule a job using PostgreSQL's pg_cron extension or an external cron job.
 - Cloud Functions - Write a small script (e.g., in Python) to call the stored procedure at the start of each year.
 
 
