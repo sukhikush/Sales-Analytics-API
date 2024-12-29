@@ -28,7 +28,7 @@ docker-compose up -d
 This will create and start the containers in the background.
 
 3. **Access the application**:
-Open your browser and go to the application URL (`http://localhost:8000>`).
+Open your browser and go to the application URL (`http://localhost:8000`).
    
 
 ## Endpoints
