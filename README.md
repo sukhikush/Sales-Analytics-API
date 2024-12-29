@@ -7,18 +7,28 @@ The dataset consists of sales data from multiple regions, with millions of recor
 The API provides a summary of the top 5 regions by total sales, including the ability to filter by date range and product category.
 
 ## Prerequisites
-
+Ensure you have the following installed:
 - Docker
 - Docker Compose
 
-## Getting Started
+## Setup
 
-1. Clone this repository to your local machine.
+Follow these steps to get the application up and running with Docker Compose:
 
-2. Navigate to the project directory.
+1. **Clone the repository**:
+```bash
+git clone <your-repository-url> cd <your-repository-directory>
+```
 
-3. Build and run the Docker containers:
-   `docker-compose up --build`
+2. **Start the application with Docker Compose**:
+Run the following command to start all services defined in the `docker-compose.yml` file:
+```bash
+docker-compose up -d
+```
+This will create and start the containers in the background.
+
+3. **Access the application**:
+Open your browser and go to the application URL (`http://localhost:8000>`).
    
 
 ## Endpoints
