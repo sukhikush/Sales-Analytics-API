@@ -101,3 +101,69 @@ http://localhost:8000/redoc
 
 These documentation pages are automatically generated and always up-to-date with the latest API changes.
 
+
+## Sample Data in DB
+```json
+[
+  {
+    "region": "'North America'",
+    "category": " 'Electronics'",
+    "sale_date": " '2023-01-01'",
+    "total_sales": 10000
+  },
+  {
+    "region": "'Europe'",
+    "category": " 'Clothing'",
+    "sale_date": " '2023-01-02'",
+    "total_sales": 8000
+  },
+  {
+    "region": "'Asia'",
+    "category": " 'Home Goods'",
+    "sale_date": " '2023-01-03'",
+    "total_sales": 12000
+  },
+  {
+    "region": "'South America'",
+    "category": " 'Electronics'",
+    "sale_date": " '2023-01-04'",
+    "total_sales": 9000
+  },
+  {
+    "region": "'Africa'",
+    "category": " 'Clothing'",
+    "sale_date": " '2023-01-05'",
+    "total_sales": 5000
+  },
+  {
+    "region": "'Australia'",
+    "category": " 'Home Goods'",
+    "sale_date": " '2023-01-06'",
+    "total_sales": 7000
+  },
+  {
+    "region": "'North America'",
+    "category": " 'Clothing'",
+    "sale_date": " '2023-01-07'",
+    "total_sales": 11000
+  },
+  {
+    "region": "'Europe'",
+    "category": " 'Electronics'",
+    "sale_date": " '2023-01-08'",
+    "total_sales": 13000
+  },
+  {
+    "region": "'Asia'",
+    "category": " 'Clothing'",
+    "sale_date": " '2023-01-09'",
+    "total_sales": 15000
+  },
+  {
+    "region": "'South America'",
+    "category": " 'Home Goods'",
+    "sale_date": " '2023-01-10'",
+    "total_sales": 6000
+  }
+]
+
